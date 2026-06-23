@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型输出目录（运行时生成）
+geo_rec/
+ill_rec/
+
+# 预训练模型权重（体积大，单独下载）
+model_pretrained/*.pth
